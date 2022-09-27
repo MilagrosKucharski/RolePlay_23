@@ -1,68 +1,35 @@
 <mxfile host="65bd71144e">
-    <diagram id="Tqwg_P7qZuKmVrcme2aD" name="Página-1">
-        <mxGraphModel dx="990" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <diagram id="lH3L_RpK333wMIv_Kzh7" name="Page-1">
+        <mxGraphModel dx="1280" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="Wizards" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="50" y="180" width="170" height="30" as="geometry"/>
+                <mxCell id="3" value="+ Health {get, set} : int&lt;br&gt;+ Defense capacity{get,set} : int&lt;br&gt;+ Mana {get,set} : int&lt;br&gt;+ Strenght {get,set} : int&lt;br&gt;+ static Attack (character) : void&lt;br&gt;+ static Defending (character) : void&lt;br&gt;+ static Healing (charactrer) : void" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="627" y="1059" width="200" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="3" target="2">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="4" value="&lt;div&gt;&lt;span&gt;+ health : int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;+ mana : int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;+ Defense capacity : int&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;+ Strenght : int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;+ intelligence : int&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="627" y="979" width="200" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="+Health : int&lt;br&gt;+DefenseCapacity: int&lt;br&gt;+Mana: int&lt;br&gt;+Strenght: int" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="50" y="210" width="170" height="60" as="geometry"/>
+                <mxCell id="5" value="Elves" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="627" y="949" width="200" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="+Health {get, set}:int&lt;br&gt;+DefenseCapacity {get, set}:int&lt;br&gt;+Mana {get, set}: int&lt;br&gt;+Strenght {get, set}: int&lt;br&gt;+&lt;u&gt;static&lt;/u&gt;&amp;nbsp;Attack(Character): void&lt;br&gt;+&lt;u&gt;static&lt;/u&gt;&amp;nbsp;Defending(Character): void" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="50" y="270" width="170" height="120" as="geometry"/>
+                <mxCell id="6" value="+ Damage{get,set} : int&lt;br&gt;+ getDefense() : int" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="1210" width="130" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="Items" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="322" y="470" width="120" height="30" as="geometry"/>
+                <mxCell id="7" value="+Defense : int&lt;br&gt;+Damage : int" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="1150" width="130" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="8" target="6">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="8" value="Battle Axe" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="1120" width="130" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="+int Damage&lt;br&gt;+int Defense" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="322" y="500" width="120" height="50" as="geometry"/>
+                <mxCell id="9" value="+ Damage{get, set} : int&lt;br&gt;+ getDefense() : int" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="1100" width="160" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="322" y="550" width="120" height="20" as="geometry"/>
+                <mxCell id="10" value="+ Defense : int&lt;br&gt;+ Damage : int" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="1040" width="160" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="Robe" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="20" y="620" width="120" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="12" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="13" target="11">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="13" value="+int Damage&lt;br&gt;+int Defense" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="20" y="650" width="120" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="14" value="+getDamage():int&lt;br&gt;+Defense{get, set}" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="20" y="700" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="15" value="Armor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="180" y="620" width="120" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="16" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="17" target="15">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="17" value="+int Damage&lt;br&gt;+int Defense" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="180" y="650" width="120" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="18" value="+getDamage():int&lt;br&gt;+Defense{get, set}" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="180" y="700" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="20" value="Character" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="294" y="30" width="176" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="21" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="22" target="20">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="22" value="&#10;&#10;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42); display: inline; float: none;&quot;&gt;+Health : int&lt;/span&gt;&lt;br style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42);&quot;&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42); display: inline; float: none;&quot;&gt;+DefenseCapacity: int&lt;/span&gt;&lt;br style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42);&quot;&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42); display: inline; float: none;&quot;&gt;+Mana: int&lt;/span&gt;&lt;br style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42);&quot;&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42); display: inline; float: none;&quot;&gt;+Strenght: int&lt;/span&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="294" y="60" width="176" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="23" value="&lt;span&gt;+Health {get, set}:int&lt;/span&gt;&lt;br&gt;&lt;span&gt;+DefenseCapacity {get, set}:int&lt;/span&gt;&lt;br&gt;&lt;span&gt;+Mana {get, set}: int&lt;/span&gt;&lt;br&gt;&lt;span&gt;+Strenght {get, set}: int&lt;/span&gt;&lt;br&gt;&lt;span&gt;+&lt;/span&gt;&lt;u&gt;static&lt;/u&gt;&lt;span&gt;&amp;nbsp;Attack(Character): void&lt;/span&gt;&lt;br&gt;&lt;span&gt;+&lt;/span&gt;&lt;u&gt;static&lt;/u&gt;&lt;span&gt;&amp;nbsp;Defending(Character): void&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="294" y="130" width="176" height="110" as="geometry"/>
+                <mxCell id="11" value="Long Sword" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="1010" width="160" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
